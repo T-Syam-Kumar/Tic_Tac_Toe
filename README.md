@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+```markdown
+# Tic Tac Toe (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple Tic Tac Toe game built with React — playable directly in the browser.  
+Live demo: https://t-syam-kumar.github.io/Tic_Tac_Toe/
 
-## Available Scripts
+## 🎯 Features
 
-In the project directory, you can run:
+- Classic 3×3 Tic Tac Toe board  
+- Two-player gameplay (Player X vs Player O)  
+- Automatic turn switching (X → O → X)  
+- Detects win and draw conditions  
+- Responsive UI — works in desktop and mobile browsers  
+- Clean and minimal design  
 
-### `npm start`
+## 🧰 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React (JSX + Hooks)  
+- HTML / CSS for layout & styling  
+- Github Pages 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure
 
-### `npm test`
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tic_Tac_Toe/
+├── public/            # static files (index.html, favicon, etc.)
+├── src/               # React source code
+│   ├── App.js         # main component
+│   ├── index.js       # entry point
+│   ├── App.css        # styling (or other style files)
+│   └── ...            # additional components/files
+├── package.json       # project metadata & dependencies
+└── README.md          # this file
 
-### `npm run build`
+````
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Adjust paths & filenames depending on your setup.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started (Local Development)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository  
+   ```bash
+   git clone <your-repo-URL>
+   cd Tic_Tac_Toe
+````
 
-### `npm run eject`
+2. Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   or
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   yarn install
+   ```
+3. Start the development server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+   or
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   yarn start
+   ```
+4. Open your browser and navigate to `http://localhost:3000` (or the port shown in console)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🖥️ Deployment / Live Demo
 
-### Code Splitting
+* The project is deployed as a static site — just build and push to GitHub Pages (or similar hosting)
+* Example using GitHub Pages:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  1. Build the app:
 
-### Analyzing the Bundle Size
+     ```bash
+     npm run build
+     ```
+  2. Push the build output to the branch configured for Pages (e.g. `gh-pages`)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✅ Usage Instructions (How to Play)
 
-### Making a Progressive Web App
+* Open the app. A 3×3 grid will appear.
+* Players take turns clicking on empty cells to mark either **X** or **O**.
+* Once a player lines up three marks in a row/column/diagonal — the game declares a winner.
+* If all cells are filled without a winner — the game is a draw.
+* (Optional) Add a “Restart” or “Play Again” button to reset the board.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 License
 
-### Advanced Configuration
+This project is open-source. Feel free to copy, modify, and share.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
 
-### Deployment
+Contributions, issues and feature requests are welcome!
+If you make improvements (UI enhancements, additional features, code refactor, etc.), please consider submitting a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+Thanks for checking out the project — have fun playing! 🎉
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+
+If you like — I can generate a slightly more advanced README (with **screenshots**, **live demo badge**, **contribution guidelines**, etc.) — would you like me to build that for you right now?
+::contentReference[oaicite:0]{index=0}
+```
