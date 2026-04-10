@@ -1,28 +1,26 @@
-```markdown
 # Tic Tac Toe (React)
 
-A simple Tic Tac Toe game built with React — playable directly in the browser.  
+A simple Tic Tac Toe game built with React — playable directly in the browser.
 Live demo: https://t-syam-kumar.github.io/Tic_Tac_Toe/
 
 ## 🎯 Features
 
-- Classic 3×3 Tic Tac Toe board  
-- Two-player gameplay (Player X vs Player O)  
-- Automatic turn switching (X → O → X)  
-- Detects win and draw conditions  
-- Responsive UI — works in desktop and mobile browsers  
-- Clean and minimal design  
+* Classic 3×3 Tic Tac Toe board
+* Two-player gameplay (Player X vs Player O)
+* Automatic turn switching (X → O → X)
+* Detects win and draw conditions
+* Responsive UI — works in desktop and mobile browsers
+* Clean and minimal design
 
 ## 🧰 Tech Stack
 
-- React (JSX + Hooks)  
-- HTML / CSS for layout & styling  
-- Github Pages 
+* React (JSX + Hooks)
+* HTML / CSS for layout & styling
+* Github Pages
 
 ## 📂 Project Structure
 
 ```
-
 Tic_Tac_Toe/
 ├── public/            # static files (index.html, favicon, etc.)
 ├── src/               # React source code
@@ -32,54 +30,51 @@ Tic_Tac_Toe/
 │   └── ...            # additional components/files
 ├── package.json       # project metadata & dependencies
 └── README.md          # this file
-
-````
+```
 
 > Adjust paths & filenames depending on your setup.
 
 ## 🚀 Getting Started (Local Development)
 
-1. Clone the repository  
-   ```bash
+1. Clone the repository
+
    git clone <your-repo-URL>
    cd Tic_Tac_Toe
-````
 
 2. Install dependencies
 
-   ```bash
    npm install
-   ```
 
-   or
+or
 
-   ```bash
-   yarn install
-   ```
+```
+yarn install  
+```
+
 3. Start the development server
 
-   ```bash
-   npm start
-   ```
+```
+npm start  
+```
 
-   or
+or
 
-   ```bash
-   yarn start
-   ```
-4. Open your browser and navigate to `http://localhost:3000` (or the port shown in console)
+```
+yarn start  
+```
+
+4. Open your browser and navigate to http://localhost:3000
 
 ## 🖥️ Deployment / Live Demo
 
-* The project is deployed as a static site — just build and push to GitHub Pages (or similar hosting)
+* The project is deployed as a static site — just build and push to GitHub Pages
 * Example using GitHub Pages:
 
-  1. Build the app:
+1. Build the app:
 
-     ```bash
-     npm run build
-     ```
-  2. Push the build output to the branch configured for Pages (e.g. `gh-pages`)
+   npm run build
+
+2. Push the build output to the branch configured for Pages (e.g. gh-pages)
 
 ## ✅ Usage Instructions (How to Play)
 
@@ -96,14 +91,8 @@ This project is open-source. Feel free to copy, modify, and share.
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-If you make improvements (UI enhancements, additional features, code refactor, etc.), please consider submitting a pull request.
+If you make improvements, please consider submitting a pull request.
 
 ---
 
 Thanks for checking out the project — have fun playing! 🎉
-
-```
-
-If you like — I can generate a slightly more advanced README (with **screenshots**, **live demo badge**, **contribution guidelines**, etc.) — would you like me to build that for you right now?
-::contentReference[oaicite:0]{index=0}
-```
