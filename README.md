@@ -3,7 +3,7 @@
 A simple Tic Tac Toe game built with React — playable directly in the browser.
 Live demo: https://t-syam-kumar.github.io/Tic_Tac_Toe/
 
-## 🎯 Features
+##  Features
 
 * Classic 3×3 Tic Tac Toe board
 * Two-player gameplay (Player X vs Player O)
@@ -12,13 +12,13 @@ Live demo: https://t-syam-kumar.github.io/Tic_Tac_Toe/
 * Responsive UI — works in desktop and mobile browsers
 * Clean and minimal design
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 * React (JSX + Hooks)
 * HTML / CSS for layout & styling
 * Github Pages
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Tic_Tac_Toe/
@@ -34,7 +34,7 @@ Tic_Tac_Toe/
 
 > Adjust paths & filenames depending on your setup.
 
-## 🚀 Getting Started (Local Development)
+##  Getting Started (Local Development)
 
 1. Clone the repository
 
@@ -65,7 +65,7 @@ yarn start
 
 4. Open your browser and navigate to http://localhost:3000
 
-## 🖥️ Deployment / Live Demo
+##  Deployment / Live Demo
 
 * The project is deployed as a static site — just build and push to GitHub Pages
 * Example using GitHub Pages:
@@ -76,7 +76,7 @@ yarn start
 
 2. Push the build output to the branch configured for Pages (e.g. gh-pages)
 
-## ✅ Usage Instructions (How to Play)
+##  Usage Instructions (How to Play)
 
 * Open the app. A 3×3 grid will appear.
 * Players take turns clicking on empty cells to mark either **X** or **O**.
@@ -84,11 +84,11 @@ yarn start
 * If all cells are filled without a winner — the game is a draw.
 * (Optional) Add a “Restart” or “Play Again” button to reset the board.
 
-## 📄 License
+##  License
 
 This project is open-source. Feel free to copy, modify, and share.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues and feature requests are welcome!
 If you make improvements, please consider submitting a pull request.
