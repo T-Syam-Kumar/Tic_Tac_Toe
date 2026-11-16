@@ -32,7 +32,6 @@ Tic_Tac_Toe/
 └── README.md          # this file
 ```
 
-> Adjust paths & filenames depending on your setup.
 
 ##  Getting Started (Local Development)
 
